@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Footer from "./footer";
+import Footer from "./Footer";
 import HeroSection from "./sections/HeroSection";
 import MissionSection from "./sections/MissionSection";
 import ValuesSection from "./sections/ValuesSection";
 import TeamSection from "./sections/TeamSection";
-import Header from "./header";
+import Header from "./headereader";
 
 const CompanyPage = () => {
   const { pathname } = useLocation();

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Footer from "./footer";
+import Footer from "./ooter";
 import HeroSection from "./sections/HeroSection";
 import MissionSection from "./sections/MissionSection";
 import ValuesSection from "./sections/ValuesSection";
