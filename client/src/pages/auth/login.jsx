@@ -138,47 +138,6 @@ function AuthLogin() {
               </Link>
             </div>
 
-            {/* Social login - different layout for mobile/desktop */}
-            <div className="mt-6">
-              <div className="relative">
-                <div className="absolute inset-0 flex items-center">
-                  <div className="w-full border-t" style={{ borderColor: colors.light }}></div>
-                </div>
-                <div className="relative flex justify-center text-sm">
-                  <span className="px-2 bg-white text-gray-500">
-                    Or continue with
-                  </span>
-                </div>
-              </div>
-
-              <div className={`grid ${window.innerWidth < 768 ? 'grid-cols-2' : 'grid-cols-2 gap-4'} mt-6`}>
-                <button
-                  type="button"
-                  className="flex items-center justify-center gap-2 w-full py-2 px-4 border rounded-md text-sm font-medium hover:bg-gray-50 transition-colors"
-                  style={{ borderColor: colors.light }}
-                >
-                  <img 
-                    src="https://www.svgrepo.com/show/355037/google.svg" 
-                    alt="Google" 
-                    className="h-5 w-5"
-                  />
-                  {window.innerWidth > 768 && 'Google'}
-                </button>
-                <button
-                  type="button"
-                  className="flex items-center justify-center gap-2 w-full py-2 px-4 border rounded-md text-sm font-medium hover:bg-gray-50 transition-colors"
-                  style={{ borderColor: colors.light }}
-                >
-                  <img 
-                    src="https://www.svgrepo.com/show/448234/facebook.svg" 
-                    alt="Facebook" 
-                    className="h-5 w-5"
-                  />
-                  {window.innerWidth > 768 && 'Facebook'}
-                </button>
-              </div>
-            </div>
-
             <p className="text-center text-sm text-gray-600 mt-6">
               Don't have an account?{' '}
               <Link
